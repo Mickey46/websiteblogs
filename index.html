@@ -50,6 +50,13 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script>
+        window.onload = function() {
+            if (confirm("Check out our new app powered by AI!")) {
+                window.location.href = "http://73.56.235.237:7878/ai/new";
+            }
+        };
+    </script>
 </head>
 
 <body>
@@ -79,6 +86,12 @@
                             <li class="smooth-menu"><a href="#education">Education</a></li>
                             <li class="smooth-menu"><a href="#skills">Skills</a></li>
                             <li class="smooth-menu"><a href="#experience">Experience</a></li>
+                            <li class="smooth-menu dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">New App <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">New App Developed for Frontend/UI/UX Powered by AI</a></li>
+                                </ul>
+                            </li>
                             <li class="smooth-menu"><a href="#contact">Contact</a></li>
                         </ul><!--/.nav -->
                     </div><!-- /.navbar-collapse -->
